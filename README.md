@@ -1,0 +1,2 @@
+# Teyvat
+ TeyvatGachaSimulator

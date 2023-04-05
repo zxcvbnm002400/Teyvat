@@ -13,7 +13,8 @@ public class GachaController {
     @Resource
     private GachaService gachaService;
 
-    // http://127.0.0.1:8080/gacha?times=1000000&num=200&target=3&cnt=57&isGuarantee=false
+    // http://127.0.0.1:8800/gacha?times=100000&num=200&target=3&cnt=57&isGuarantee=false
+    // http://teyvat.oldloli.top:8800/gacha?times=100000&num=200&target=3&cnt=57&isGuarantee=false
     @RequestMapping("/gacha")
     @ResponseBody
     public double gacha(@RequestParam(name = "times") int times, @RequestParam(name = "num") int num,
